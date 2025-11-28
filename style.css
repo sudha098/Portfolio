@@ -25,7 +25,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -74,4 +74,12 @@ footer {
     padding: 1rem;
     background: #e5e7eb;
     margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
 }
